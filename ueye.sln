@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ueye", "ueye\ueye.vcxproj", "{AD7FFD57-378D-48B9-9753-3D4A2B0B6932}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{46510728-0145-4C2C-A653-C180561EE2BD}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ueye.cpp", "ueye.cpp\ueye.cpp.vcxproj", "{D776A5D9-7379-4152-9392-03F45645D235}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AD7FFD57-378D-48B9-9753-3D4A2B0B6932} = {AD7FFD57-378D-48B9-9753-3D4A2B0B6932}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ueye.cpp.test.integration", "ueye.cpp.test.integration\ueye.cpp.test.integration.vcxproj", "{B7EE91E6-760D-41A7-8BE5-73342AB86E46}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ueye.cpp.test.console", "ueye.cpp.test.console\ueye.cpp.test.console.vcxproj", "{983C9D3A-5908-4B3A-911A-92D133328850}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD7FFD57-378D-48B9-9753-3D4A2B0B6932}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AD7FFD57-378D-48B9-9753-3D4A2B0B6932}.Debug|Win32.Build.0 = Debug|Win32
+		{AD7FFD57-378D-48B9-9753-3D4A2B0B6932}.Debug|x64.ActiveCfg = Debug|x64
+		{AD7FFD57-378D-48B9-9753-3D4A2B0B6932}.Debug|x64.Build.0 = Debug|x64
+		{AD7FFD57-378D-48B9-9753-3D4A2B0B6932}.Release|Win32.ActiveCfg = Release|Win32
+		{AD7FFD57-378D-48B9-9753-3D4A2B0B6932}.Release|Win32.Build.0 = Release|Win32
+		{AD7FFD57-378D-48B9-9753-3D4A2B0B6932}.Release|x64.ActiveCfg = Release|x64
+		{AD7FFD57-378D-48B9-9753-3D4A2B0B6932}.Release|x64.Build.0 = Release|x64
+		{D776A5D9-7379-4152-9392-03F45645D235}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D776A5D9-7379-4152-9392-03F45645D235}.Debug|Win32.Build.0 = Debug|Win32
+		{D776A5D9-7379-4152-9392-03F45645D235}.Debug|x64.ActiveCfg = Debug|x64
+		{D776A5D9-7379-4152-9392-03F45645D235}.Debug|x64.Build.0 = Debug|x64
+		{D776A5D9-7379-4152-9392-03F45645D235}.Release|Win32.ActiveCfg = Release|Win32
+		{D776A5D9-7379-4152-9392-03F45645D235}.Release|Win32.Build.0 = Release|Win32
+		{D776A5D9-7379-4152-9392-03F45645D235}.Release|x64.ActiveCfg = Release|x64
+		{D776A5D9-7379-4152-9392-03F45645D235}.Release|x64.Build.0 = Release|x64
+		{B7EE91E6-760D-41A7-8BE5-73342AB86E46}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B7EE91E6-760D-41A7-8BE5-73342AB86E46}.Debug|Win32.Build.0 = Debug|Win32
+		{B7EE91E6-760D-41A7-8BE5-73342AB86E46}.Debug|x64.ActiveCfg = Debug|x64
+		{B7EE91E6-760D-41A7-8BE5-73342AB86E46}.Debug|x64.Build.0 = Debug|x64
+		{B7EE91E6-760D-41A7-8BE5-73342AB86E46}.Release|Win32.ActiveCfg = Release|Win32
+		{B7EE91E6-760D-41A7-8BE5-73342AB86E46}.Release|Win32.Build.0 = Release|Win32
+		{B7EE91E6-760D-41A7-8BE5-73342AB86E46}.Release|x64.ActiveCfg = Release|x64
+		{B7EE91E6-760D-41A7-8BE5-73342AB86E46}.Release|x64.Build.0 = Release|x64
+		{983C9D3A-5908-4B3A-911A-92D133328850}.Debug|Win32.ActiveCfg = Debug|Win32
+		{983C9D3A-5908-4B3A-911A-92D133328850}.Debug|Win32.Build.0 = Debug|Win32
+		{983C9D3A-5908-4B3A-911A-92D133328850}.Debug|x64.ActiveCfg = Debug|Win32
+		{983C9D3A-5908-4B3A-911A-92D133328850}.Release|Win32.ActiveCfg = Release|Win32
+		{983C9D3A-5908-4B3A-911A-92D133328850}.Release|Win32.Build.0 = Release|Win32
+		{983C9D3A-5908-4B3A-911A-92D133328850}.Release|x64.ActiveCfg = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
