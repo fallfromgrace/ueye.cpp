@@ -74,7 +74,7 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros">
-    <NuGetPackageImportStamp>4cb91f49</NuGetPackageImportStamp>
+    <NuGetPackageImportStamp>8a6c5ddb</NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
@@ -166,19 +166,19 @@
   <ImportGroup Label="ExtensionTargets">
     <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
     <Import Project="..\packages\rxcpp.2.1.1\build\native\rxcpp.targets" Condition="Exists('..\packages\rxcpp.2.1.1\build\native\rxcpp.targets')" />
-    <Import Project="..\packages\more.cpp.1.0.0.107\build\native\more.cpp.targets" Condition="Exists('..\packages\more.cpp.1.0.0.107\build\native\more.cpp.targets')" />
-    <Import Project="..\packages\win32.cpp.1.0.0.108\build\native\win32.cpp.targets" Condition="Exists('..\packages\win32.cpp.1.0.0.108\build\native\win32.cpp.targets')" />
-    <Import Project="..\packages\ueye.cpp.1.0.0.110\build\native\ueye.cpp.targets" Condition="Exists('..\packages\ueye.cpp.1.0.0.110\build\native\ueye.cpp.targets')" />
+    <Import Project="..\packages\more.cpp.0.1.5638.24106\build\native\more.cpp.targets" Condition="Exists('..\packages\more.cpp.0.1.5638.24106\build\native\more.cpp.targets')" />
+    <Import Project="..\packages\win32.cpp.0.1.5638.24619\build\native\win32.cpp.targets" Condition="Exists('..\packages\win32.cpp.0.1.5638.24619\build\native\win32.cpp.targets')" />
+    <Import Project="..\packages\ueye.cpp.0.1.5638.24796\build\native\ueye.cpp.targets" Condition="Exists('..\packages\ueye.cpp.0.1.5638.24796\build\native\ueye.cpp.targets')" />
   </ImportGroup>
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
     </PropertyGroup>
     <Error Condition="!Exists('$(SolutionDir)\.nuget\NuGet.targets')" Text="$([System.String]::Format('$(ErrorText)', '$(SolutionDir)\.nuget\NuGet.targets'))" />
-    <Error Condition="!Exists('..\packages\ueye.4.61.00.64\build\native\ueye.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\ueye.4.61.00.64\build\native\ueye.props'))" />
     <Error Condition="!Exists('..\packages\rxcpp.2.1.1\build\native\rxcpp.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\rxcpp.2.1.1\build\native\rxcpp.targets'))" />
-    <Error Condition="!Exists('..\packages\more.cpp.1.0.0.107\build\native\more.cpp.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\more.cpp.1.0.0.107\build\native\more.cpp.targets'))" />
-    <Error Condition="!Exists('..\packages\win32.cpp.1.0.0.108\build\native\win32.cpp.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\win32.cpp.1.0.0.108\build\native\win32.cpp.targets'))" />
-    <Error Condition="!Exists('..\packages\ueye.cpp.1.0.0.110\build\native\ueye.cpp.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\ueye.cpp.1.0.0.110\build\native\ueye.cpp.targets'))" />
+    <Error Condition="!Exists('..\packages\ueye.4.61.00.64\build\native\ueye.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\ueye.4.61.00.64\build\native\ueye.props'))" />
+    <Error Condition="!Exists('..\packages\more.cpp.0.1.5638.24106\build\native\more.cpp.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\more.cpp.0.1.5638.24106\build\native\more.cpp.targets'))" />
+    <Error Condition="!Exists('..\packages\win32.cpp.0.1.5638.24619\build\native\win32.cpp.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\win32.cpp.0.1.5638.24619\build\native\win32.cpp.targets'))" />
+    <Error Condition="!Exists('..\packages\ueye.cpp.0.1.5638.24796\build\native\ueye.cpp.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\ueye.cpp.0.1.5638.24796\build\native\ueye.cpp.targets'))" />
   </Target>
 </Project>

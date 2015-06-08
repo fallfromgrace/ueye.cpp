@@ -18,6 +18,7 @@
     <None Include="ueye.cpp.nuspec" />
     <None Include="ueye.cpp.targets" />
     <None Include="packages.config" />
+    <None Include="update_nuspec.ps1" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\auto_exposure.hpp">

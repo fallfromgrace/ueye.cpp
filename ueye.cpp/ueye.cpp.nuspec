@@ -2,13 +2,14 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>ueye.cpp</id>
-    <version>1.0.0.110</version>
+    <version>0.1.5638.24796</version>
     <title>ueye.cpp</title>
     <authors>Light</authors>
     <owners>Light</owners>
     <description>C++ wrapper for uEye.</description>
     <summary>C++ wrapper for uEye.</summary>
-    <releaseNotes></releaseNotes>
+    <releaseNotes>
+    </releaseNotes>
     <language>en-US</language>
     <!--<projectUrl></projectUrl>-->
     <!--<licenseUrl></licenseUrl>-->
@@ -18,7 +19,7 @@
     <dependencies>
       <dependency id="rxcpp" version="2.1.1" />
       <dependency id="ueye" version="4.61.00.64" />
-      <dependency id="win32.cpp" version="1.0.0.108" />
+      <dependency id="win32.cpp" version="0.1" />
     </dependencies>
   </metadata>
   <files>
